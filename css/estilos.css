@@ -272,11 +272,11 @@ margin:auto;
   height:250px;
 }
 .oneport{
-  background:url(https://images.unsplash.com/photo-1504257365157-1496a50d48f2?w=3150&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D);
+  background:url("img/entradaumb.jpg");
   background-size:cover;
 }
 .twoport{
-  background:url(https://images.unsplash.com/photo-1495511623436-ba44aaee07cf?w=2102&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D);
+  background:url("img/CVgithub.jpg");
   background-size:cover;
 }
 .text-miniature{
