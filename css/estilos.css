@@ -70,21 +70,20 @@ html, body{
 #conteneur-portfolio{ background:#eee; padding:100px 0; }
 
 .miniature-portfolio{
-  width:100%;
-  height:250px;
+  width: 100%;
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 
 .oneport{
   background-image: url("../img/entradaubm.jpeg");
-  background-size: cover;
-  background-position: center;
 }
 
 .twoport{
   background-image: url("../img/CVgithub.png");
-  background-size: cover;
-  background-position: center;
 }
 
 /* CONTACTO */
