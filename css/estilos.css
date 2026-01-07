@@ -110,4 +110,20 @@ html, body{
   text-align:center;
   padding:15px;
 }
+/* CENTRADO GENERAL DEL CONTENIDO */
+.about,
+.skills,
+.qualification,
+.portfolio,
+.contact{
+  margin: 0 auto;
+}
+
+h1, h2{
+  text-align: center;
+}
+
+p{
+  text-align: justify;
+}
 
