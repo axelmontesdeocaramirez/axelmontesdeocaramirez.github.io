@@ -49,10 +49,12 @@ html, body{
 /* ABOUT */
 #conteneur-about{ padding:100px 0; }
 .about{ max-width:960px; margin:auto; }
-
-.profil-photo{ width:50%; float:left; }
-.profil-photo img{ width:70%; }
-
+.profile-img {
+  width: 150px;
+  border-radius: 50%;
+  display: block;
+  margin: 20px auto;
+}
 .profil-text{ width:50%; float:left; }
 
 /* SKILLS */
