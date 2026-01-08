@@ -50,10 +50,12 @@ html, body{
 #conteneur-about{ padding:100px 0; }
 .about{ max-width:960px; margin:auto; }
 .profile-img {
-  width: 150px;
-  border-radius: 50%;
+  width: 220px;      /* más grande */
+  height: 220px;     /* cuadrada */
+  object-fit: cover;/* evita que se deforme */
   display: block;
   margin: 20px auto;
+}
 }
 .profil-text{ width:50%; float:left; }
 
