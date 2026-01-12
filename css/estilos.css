@@ -169,5 +169,7 @@ p{
 }
 .progressbar span{
   width: 0;
-  transition: width 1.5s ease;
+  transition: width 2.5s ease;
 }
+
+
