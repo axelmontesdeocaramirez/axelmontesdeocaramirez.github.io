@@ -87,11 +87,6 @@ html, body{
   text-align: left;
 }
 
-.html{ width:40%; }
-.css{ width:35%; }
-.javascript{ width:50%; }
-.php{ width:10%; }
-.sql{ width:60%; }
 
 /* PORTFOLIO */
 #conteneur-portfolio{ background:#eee; padding:100px 0; }
