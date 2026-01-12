@@ -162,9 +162,4 @@ p{
 .menu a.active{
   background-color: rgb(4, 61, 24);
 }
-.progressbar span{
-  width: 0;
-  transition: width 2.5s ease;
-}
-
 
