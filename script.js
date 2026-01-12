@@ -34,6 +34,7 @@ window.addEventListener("scroll", () => {
       if (bar.classList.contains("php")) bar.style.width = "10%";
       if (bar.classList.contains("sql")) bar.style.width = "60%";
     });
-    animated = true;
+    animated = false;
   }
 });
+
