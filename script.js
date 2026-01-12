@@ -1,18 +1,20 @@
-<script>
-document.querySelectorAll('a[href^="#"]').forEach(link => {
-  link.addEventListener('click', e => {
-    e.preventDefault();
-    document.querySelector(link.getAttribute('href'))
-      .scrollIntoView({ behavior: 'smooth' });
+const sections = document.querySelectorAll("div[id^='conteneur']");
+const menuLinks = document.querySelectorAll(".menu a");
+
+window.addEventListener("scroll", () => {
+  let current = "";
+
+  sections.forEach(section => {
+    const sectionTop = section.offsetTop - 150;
+    if (window.scrollY >= sectionTop) {
+      current = section.getAttribute("id");
+    }
+  });
+
+  menuLinks.forEach(link => {
+    link.classList.remove("active");
+    if (link.getAttribute("href") === "#" + current) {
+      link.classList.add("active");
+    }
   });
 });
-</script>
-<script>
-const bars = document.querySelectorAll('.progressbar span');
-
-bars.forEach(bar => {
-  const width = bar.style.width;
-  bar.style.width = '0';
-  setTimeout(() => bar.style.width = width, 500);
-});
-</script>
