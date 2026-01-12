@@ -1,4 +1,7 @@
-const sections = document.querySelectorAll("div[id^='conteneur']");
+const sections = document.querySelectorAll(
+  "#conteneur-home, #conteneur-about, #conteneur-skills, #conteneur-qualification, #conteneur-experience, #conteneur-portfolio, #conteneur-contact"
+);
+
 const menuLinks = document.querySelectorAll(".menu a");
 
 window.addEventListener("scroll", () => {
